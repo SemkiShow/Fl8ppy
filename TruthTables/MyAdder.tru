@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <truthTable>
   <variables>
-    <variable name="Q_2^n"/>
-    <variable name="Q_1^n"/>
-    <variable name="Q_0^n"/>
+    <variable name="Cin"/>
+    <variable name="A"/>
+    <variable name="B"/>
   </variables>
   <results>
     <result>
-      <name>Q_2^{n+1}</name>
+      <name>out(sum)</name>
       <values class="BoolTable">01101001</values>
     </result>
     <result>
-      <name>Q_1^{n+1}</name>
+      <name>Cout</name>
       <values class="BoolTable">00010111</values>
     </result>
   </results>
